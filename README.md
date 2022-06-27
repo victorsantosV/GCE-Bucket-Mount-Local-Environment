@@ -104,6 +104,6 @@ Para desmontar a pasta do bucket sem a reinicialização da maquina, basta segui
     
     fusermount -u {caminho_relativo_pasta}
     
-# OBS: Ao reinicializar a maquina todos os vinculos com o bucket serão removidos, sendo assim a remontagem da pasta
+OBS: Ao reinicializar a maquina todos os vinculos com o bucket serão removidos, sendo assim a remontagem da pasta
  
 </details
