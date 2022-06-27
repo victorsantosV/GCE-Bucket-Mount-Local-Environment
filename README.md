@@ -81,7 +81,7 @@ chmod 777 ./ {nome_da_pasta}
 
 > 3° Arquivo de json
 
-Esta parte é importante pois é nesta parte que daremos acesso ao user para montar a pasta.
+Este arquivo será disponibilizado pelo administrador do GCE
 
 </details>
 
