@@ -1,5 +1,4 @@
-# 05 - Como montar uma Pasta que tenha o bucket como disco
-
+# FINANTO - INFRA
 Neste topico, abordaremos na prática, a ideia de usar uma pasta localmente onde o disco seja o BUCKET
 
 <details>
