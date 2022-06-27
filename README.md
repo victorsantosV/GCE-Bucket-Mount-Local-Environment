@@ -103,6 +103,7 @@ gcsfuse -o allow_other --gid {NUMERO_ID_USER} --uid {NUMERO_ID_USER} --file-mode
 Para desmontar a pasta do bucket sem a reinicialização da maquina, basta seguir este comando:
     
     fusermount -u {caminho_relativo_pasta}
-    # OBS: Ao reinicializar a maquina todos os vinculos com o bucket serão removidos, sendo assim a remontagem da pasta
+    
+# OBS: Ao reinicializar a maquina todos os vinculos com o bucket serão removidos, sendo assim a remontagem da pasta
  
 </details
