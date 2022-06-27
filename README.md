@@ -83,22 +83,6 @@ chmod 777 ./ {nome_da_pasta}
 
 Esta parte é importante pois é nesta parte que daremos acesso ao user para montar a pasta.
 
->> 1° Precisamos adicionar o email do usuario no IAM e Administrator da GCP
-
-![image_um](./imagens/02.png)
-
->> 2° Depois de criado precisamos dar permissao para essa conta
-
-entre em contas de serviço >> depois clique sobre a conta criada >> Permissão
-![image_um](./imagens/03.png)
-
->> 3° Agora criar uma chave para este usuario
-
-entraremos em chaves >> criar nova chave >> tipo JSON
-
-![image_um](./imagens/04.png)
-
-Depois de tudo isso feito, será feito o dowload automatico da chave e é apartir disto que faremos o comando para montar a pasta
 </details>
 
 <details>
