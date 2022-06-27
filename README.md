@@ -92,8 +92,17 @@ Este arquivo será disponibilizado pelo administrador do GCE
 
 ```bash
 
-gcsfuse -o allow_other --gid {NUMERO_ID_USER} --uid {NUMERO_ID_USER} --file-mode 777 --dir-mode 777 --key-file={caminho_arquivo_json_permissao} {NOME_BUCKET} /{caminho_pasta_destino_montagem}
+gcsfuse -o allow_other --gid {NUMERO_ID_USER} --uid {NUMERO_ID_USER} --file-mode 777 --dir-mode 777 --key-file={caminho_relativo_do_arquivo_json_permissao} {NOME_BUCKET} /{caminho_pasta_destino_montagem}
 
 ```
 
 </details>
+
+<details>
+    <summary>Como desmontar uma pasta</summary>
+    Para desmontar a pasta do bucket sem a reinicialização da maquina, basta seguir este comando:
+    ```Bash
+        fusermount -u {caminho_relativo_pasta}
+    # OBS: Ao reinicializar a maquina todos os vinculos com o bucket serão removidos, sendo assim a remontagem da pasta
+    ```
+</details
