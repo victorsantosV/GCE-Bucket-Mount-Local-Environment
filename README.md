@@ -80,9 +80,9 @@ chmod 777 ./ {nome_da_pasta}
 ```
 
 > 3° Arquivo de json
-
+```bash
 Este arquivo será disponibilizado pelo administrador do GCE
-
+```
 </details>
 
 <details>
